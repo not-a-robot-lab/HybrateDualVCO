@@ -1,2 +1,3 @@
 # HybrateDualVCO
 A digital controlled triangle core dual VCO with shape and gain control.
+It is a bit like the Roland Juno DCO but instead of reseting the ramp using a transistor, this one sends the ramp back down. And this is how the triangle is generated but when the shape is more set towards the sawtooth, the down is a bit faster and the up is a bit slower. And when the gain is below 5v the ramp will just go slower but the speed of the switching from up to down stays the same so frequency will stay acurate. All this is math that I am not able to calculate myself so I used AI to calculate this.
